@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="pc.css" media="screen and (max-width: 750px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (min-width: 1420px)">
+    <link rel="stylesheet" href="desktop.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="animate.min.css">
+    <link rel="website icon" href="logo-pagina.svg">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    <header>
+        <nav class=" navbar navbar-expand-md bg ">
+            <a href="" class="navbar-brand fs-3 ms-3">
+                <img class="logo" src="img-proyectos/logo-pagina.svg"/>
+            </a>
+            
+            <button class="navbar-toggler me-3 border-0 shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+                <i class='bx bx-menu bx-md ' style='color:#ffffff'  ></i>></i>
+            </button>
+            <div class=" collapse navbar-collapse " id="btn">
+                <ul class="navbar-nav ms-auto">
+                    <li class=" nav-item">
+                        <a href="#inicio" class=" nav-link mx-2">Inicio</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#habilidades" class=" nav-link mx-2">Habilidades</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#proyectos" class=" nav-link mx-2">Proyectos</a>
+                    </li>
+                    <li class=" nav-item">
+                        <a href="#contacto" class=" nav-link mx-2">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <section class="inicio" id="inicio">
+        <div class="presentacion">
+            <div class="usuario">
+                <h2 id="nivel"> Programador Junior</h2>
+                <img id="foto" src="programmer.svg" style="color: #ffffff;" width="300"/>
+            </div>
+            <div class="parrafo">
+                <p>Hola soy Aldair, estoy dando mis primeros</p>
+                <p>pasos en el desarrollo frontend y backend,</p> 
+                <p>en busca de nuevas experiencias y desafios.</p>
+                <a download="CV Aldair Torres" href="cv.pdf" class="animate__animated animate__bounceInLeft animate__delay-4s">
+                    <span><img src="file-plus.svg"/>Descargar CV</span> 
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades" id="habilidades">
+        <h1 class="titulo" data-aos="zoom-in">HABILIDADES</h1>
+        <div class="contenedor-habilidades" >
+            <article class="frontend" data-aos="fade-up">
+                <img src="icons-habilid/html-1.svg"/>
+                <img src="icons-habilid/css-3.svg"/>
+                <img src="icons-habilid/javascript-1.svg"/>
+                <h2>FRONTEND</h2>
+            </article>
+            <article class="backend" data-aos="fade-up">
+                <img src="icons-habilid/python.svg"/>
+                <img src="icons-habilid/c3.svg"/>
+                <img src="icons-habilid/cpp3.svg"/>
+                <h2>BACKEND</h2>
+            </article>  
+            <article class="herramientas" data-aos="fade-up">
+                <img src="icons-habilid/github-icon-1.svg"/>
+                <img src="icons-habilid/git-bash.svg"/>
+                <img src="icons-habilid/bootstrap-5-1.svg"/>
+                <img src="icons-habilid/visual-studio-code-1.svg"/>
+                <h2>HERRAMIENTAS</h2>
+            </article>
+        </div>
+    </section>
+    <section class="proyectos" id="proyectos">
+        <h1 class="titulo" data-aos="zoom-in">MIS PROYECTOS</h1>
+        <div class="contenedor-proyectos">
+            <article class="proyecto1" data-aos="flip-up">
+                <img src="img-proyectos/logo-pagina.svg">
+                <div class="descripcion">
+                    <p>Mi primer proyecto realizado con html, css, js</p>
+                    <a href="index.html">
+                        <span>
+                        Visitar
+                        <img src="img-proyectos/visitar-icon.svg">
+                        </span>
+                    </a>
+                </div>
+            </article>
+            <article class="proyecto2" data-aos="flip-up">
+                <img src="img-proyectos/logo-github.svg">
+                <div class="descripcion">
+                    <p>Github con algunos proyectos academicos</p>
+                    <a href="https://github.com/Aldair-T">
+                        <span>
+                        Visitar
+                        <img src="img-proyectos/visitar-icon.svg">
+                        </span>
+                    </a>
+                </div>
+            </article>
+            
+            
+            
+        </div>
+    </section>
+    <footer class="contacto" id="contacto">
+        <div class="contenedor_contacto">
+            <div class="links">
+                <a target = "_blank" href="mailto: aldairtorres0403@gmail.com"><img src="icons-contacto/gmail-icon.svg" ></a>
+                <a target = "_blank" href="https://www.linkedin.com/in/aldair-torres-a95610248/"><img src="icons-contacto/linkedin-icon-2.svg"></a>
+                <a target = "_blank" href="https://www.instagram.com/aldaa.ts/"><img src="icons-contacto/instagram-2016-5.svg"></a>
+                <a target = "_blank" href="https://twitter.com/alda01_"><img src="icons-contacto/twitter-6.svg"></a>
+            </div>
+            <p>Copyright © 2023. @AldairT_</p>
+        </div>
+    </footer>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="portfolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
