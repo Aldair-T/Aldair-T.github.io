@@ -365,7 +365,7 @@ section .titulo{
     color: white;
     position: relative;
     overflow: hidden;
-    background-image: url(/Portafolio/img-proyectos/vivofutbol.png);
+    background-image: url(img-proyectos/vivofutbol.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
