@@ -361,6 +361,15 @@ section .titulo{
     background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
 }
 
+.proyecto3{
+    color: white;
+    position: relative;
+    overflow: hidden;
+    background-image: url(/Portafolio/img-proyectos/vivofutbol.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .proyecto2{
     color: white;
     position: relative;
